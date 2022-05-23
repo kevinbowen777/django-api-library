@@ -10,7 +10,7 @@
  - `mkvirtualenv django_api-library` or  `workon django_api-library`
  - `poetry install`
  - `poetry run python manage.py runserver`
- - Open browser to http://127.0.0.1:8000
+ - Open browser to http://127.0.0.1:8000/api
 
 ---
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/kevinbowen777/django_api-library/blob/master/LICENSE)
