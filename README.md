@@ -1,7 +1,9 @@
-## django_api-library  - A demo of basic Django API functionality
+## django_api-library  - A demo of basic Django API functionality using Django
+Rest Framework(DRF)
 
 ---
 ## Features
+ - Basic browseable API
  - TBD
 
 ### Installation
