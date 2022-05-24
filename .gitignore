@@ -3,6 +3,7 @@
 #
 LOCAL_APP_NOTES
 LOCAL_APP_NOTES~
+django_api-library.sqlite3
 app.db
 .idea/
 logs/
