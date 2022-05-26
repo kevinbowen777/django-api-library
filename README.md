@@ -1,20 +1,22 @@
-## django_api-library  - A demo of basic Django API functionality using Django
-Rest Framework(DRF)
+### django_api-library - A demo of basic Django API functionality using Django Rest Framework(DRF)
 
 ---
-## Features
+### Features
  - Basic browseable API
  - TBD
 
 ### Installation
  - `git clone https://github.com/kevinbowen777/django_api-library.git`
  - `cd django_api-library`
- - `mkvirtualenv django_api-library` or  `workon django_api-library`
- - `poetry install`
- - `poetry run python manage.py runserver`
+ - Local installation:
+     - `mkvirtualenv django_api-library` or  `workon django_api-library`
+     - `poetry install`
+     - `poetry run python manage.py runserver`
+ - Docker container:
+     - `docker-compose up --build`
  - URLs:
-  - http://127.0.0.1:8000/api
-  - http://127.0.0.1:8000/api/?format=json
+    - http://127.0.0.1:8000/api
+    - http://127.0.0.1:8000/api/?format=json
 
 ---
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/kevinbowen777/django_api-library/blob/master/LICENSE)
