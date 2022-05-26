@@ -3,7 +3,7 @@ from django.test import TestCase
 from .models import Book
 
 
-class TodoModelTest(TestCase):
+class BookModelTest(TestCase):
     @classmethod
     def setUpTestData(cls):
         Book.objects.create(
