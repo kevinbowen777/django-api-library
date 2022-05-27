@@ -27,8 +27,8 @@ INSTALLED_APPS = [
     # 3rd party
     "rest_framework",
     # Local
-    "books.apps.BooksConfig",
-    "api.apps.ApiConfig",
+    "api",
+    "books",
 ]
 
 MIDDLEWARE = [
@@ -46,7 +46,7 @@ ROOT_URLCONF = "config.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [str(BASE_DIR.joinpath("templates"))],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
