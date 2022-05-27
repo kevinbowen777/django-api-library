@@ -82,6 +82,21 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "dj-rest-auth"
+version = "2.2.4"
+description = "Authentication and Registration in Django Rest Framework"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[package.dependencies]
+Django = ">=2.0"
+djangorestframework = ">=3.7.0"
+
+[package.extras]
+with_social = ["django-allauth (>=0.40.0,<0.51.0)"]
+
+[[package]]
 name = "django"
 version = "4.0.4"
 description = "A high-level Python web framework that encourages rapid development and clean, pragmatic design."
@@ -400,7 +415,7 @@ testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "afac325159af76925fd87f3c6f6b6cb4e63d0a1311ea27f096e903db04bde694"
+content-hash = "f21a468502f9ce6e6e58a47208d12ca8c082e53259abc56b0c6bba90592ca294"
 
 [metadata.files]
 asgiref = [
@@ -455,6 +470,9 @@ dj-database-url = [
 dj-email-url = [
     {file = "dj-email-url-1.0.5.tar.gz", hash = "sha256:ef36f8a324ec57cf3be5c7a7ef44ed6900ca0208624a918ab33adc1cf6427b39"},
     {file = "dj_email_url-1.0.5-py2.py3-none-any.whl", hash = "sha256:64257c4f9d8139a4af8e5267229d32260e433fbf257b0cf8fc855bb0cc39ca7d"},
+]
+dj-rest-auth = [
+    {file = "dj-rest-auth-2.2.4.tar.gz", hash = "sha256:cf15155756b60a02842c54af62a213975c4eed250a2cce5d31b80dc6cf8592f1"},
 ]
 django = [
     {file = "Django-4.0.4-py3-none-any.whl", hash = "sha256:07c8638e7a7f548dc0acaaa7825d84b7bd42b10e8d22268b3d572946f1e9b687"},
