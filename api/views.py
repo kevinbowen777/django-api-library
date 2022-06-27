@@ -1,6 +1,5 @@
-from rest_framework import generics, permissions
-
 from books.models import Book
+from rest_framework import generics, permissions
 
 # from .permissions import IsAuthorOrReadOnly
 from .serializers import BookSerializer
