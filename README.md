@@ -8,22 +8,42 @@
 ### Installation
  - `git clone https://github.com/kevinbowen777/django_api-library.git`
  - `cd django_api-library`
- - Local installation:
-     - `mkvirtualenv django_api-library` or  `workon django_api-library`
+ - Local installation
      - `poetry install`
-     - `poetry run python manage.py runserver`
- - Docker container:
+     - `python manage.py migrate`
+     - `python manage.py createsuperuser`
+     - `python manage.py runserver`
+ - Docker installation
      - `docker-compose up --build`
-     - `docker-compose exec web python manage.py migrate`
-     - `docker-compose exec web python manage.py createsuperuser`
- - URLs:
-    - http://127.0.0.1:8000/api/v1/
-    - http://127.0.0.1:8000/api/v1/1/?format=json
-    - https://kbowen-django-api-library.herokuapp.com/api/v1/
+     - `docker-compose python manage.py migrate`
+     - `docker-compose python manage.py createsuperuser`
+ - Open browser to http://127.0.0.1:8000
+ 
+---
+### URLs
+ - Log In endpoint:
+    http://127.0.0.1:8000/api/v1/dj-rest-auth/login/
+ - Log Out endpoint:
+    http://127.0.0.1:8000/api/v1/dj-rest-auth/logout/
+ - Password reset:
+    http://127.0.0.1:8000/api/v1/dj-rest-auth/password/reset
+ - Password reset confirmation:
+    http://127.0.0.1:8000/api/v1/dj-rest-auth/password/reset/confirm
+ - User registration endpoint:
+    http://127.0.0.1:8000/api/v1/dj-rest-auth/registration/
+ - User list:
+    http://127.0.0.1:8000/api/v1/users/
+ - User detail:
+    http://127.0.0.1:8000/api/v1/users/1/
+ - API schema download:
+    http://127.0.0.1:8000/api/schema/
+ - Redoc API browser:
+    http://127.0.0.1:8000/api/schema/redoc/
+ - Swagger-UI:
+    http://127.0.0.1:8000/api/schema/swagger-ui/
 
 ### Live Demo on Heroku:
- - [django-api-library](https://kbowen-django-api-library.herokuapp.com/)
-
+ - [django-api-library](https://kbowen-django-api-library.herokuapp.com/api/v1)
 
 ---
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/kevinbowen777/django_api-library/blob/master/LICENSE)
