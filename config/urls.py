@@ -1,6 +1,8 @@
 from django.conf import settings  # noqa:F401
 from django.contrib import admin
 from django.urls import include, path
+from drf_spectacular.views import SpectacularAPIView
+
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -11,6 +13,11 @@ urlpatterns = [
     path(
         "api/v1/dj-rest-auth/registration/",
         include("dj_rest_auth.registration.urls"),
+    ),
+    path(
+        "api/schema/",
+        SpectacularAPIView.as_view(),
+        name="schema",
     ),
 ]
 
