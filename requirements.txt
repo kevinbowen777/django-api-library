@@ -164,6 +164,9 @@ django-allauth==0.50.0 \
 django-cache-url==3.4.2; python_version >= "3.6" \
     --hash=sha256:6cc9901a99a99751f5458aa7de08ce06e48c1441b1a94c9457d78af74fab9a26 \
     --hash=sha256:c4a62634cffc9d636073cef597a44576d67b07660ab2ef1f02b160ee7ecf0e98
+django-cors-headers==3.10.1; python_version >= "3.6" \
+    --hash=sha256:b5a874b492bcad99f544bb76ef679472259eb41ee5644ca62d1a94ddb26b7f6e \
+    --hash=sha256:1390b5846e9835b0911e2574409788af87cd9154246aafbdc8ec546c93698fe6
 django-extensions==3.2.0; python_version >= "3.6" \
     --hash=sha256:7dc7cd1da50d83b76447a58f5d7e5c8e6cd83f21e9b7e5f97e6b644f4d4e21a6 \
     --hash=sha256:4c234a7236e9e41c17d9036f6dae7a3a9b212527105b8a0d24b2459b267825f0
