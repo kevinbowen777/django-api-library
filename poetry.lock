@@ -323,6 +323,17 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "django-cors-headers"
+version = "3.10.1"
+description = "django-cors-headers is a Django application for handling the server headers required for Cross-Origin Resource Sharing (CORS)."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+Django = ">=2.2"
+
+[[package]]
 name = "django-coverage-plugin"
 version = "2.0.3"
 description = "Django template coverage.py plugin"
@@ -1321,7 +1332,7 @@ brotli = ["brotli"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "b232f26f086e6494948d2241850d7c88af2a6f074fab23150602869b6cfa63c8"
+content-hash = "14d66ece8f2af7671dd44f18817e80e46054181367e6af9dbe0a2c0b512b1c8b"
 
 [metadata.files]
 appnope = [
@@ -1574,6 +1585,10 @@ django-allauth = [
 django-cache-url = [
     {file = "django-cache-url-3.4.2.tar.gz", hash = "sha256:6cc9901a99a99751f5458aa7de08ce06e48c1441b1a94c9457d78af74fab9a26"},
     {file = "django_cache_url-3.4.2-py2.py3-none-any.whl", hash = "sha256:c4a62634cffc9d636073cef597a44576d67b07660ab2ef1f02b160ee7ecf0e98"},
+]
+django-cors-headers = [
+    {file = "django-cors-headers-3.10.1.tar.gz", hash = "sha256:b5a874b492bcad99f544bb76ef679472259eb41ee5644ca62d1a94ddb26b7f6e"},
+    {file = "django_cors_headers-3.10.1-py3-none-any.whl", hash = "sha256:1390b5846e9835b0911e2574409788af87cd9154246aafbdc8ec546c93698fe6"},
 ]
 django-coverage-plugin = [
     {file = "django_coverage_plugin-2.0.3-py3-none-any.whl", hash = "sha256:fd888f2ff41e3410a004d799b198cf8b19694d692a2d2264e8c944b9321bedc3"},
