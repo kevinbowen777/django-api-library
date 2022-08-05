@@ -13,6 +13,10 @@ class BookModelTest(TestCase):
             isbn="1093633948",
         )
 
+    def test_book___str__(self):
+        book = Book.objects.get(id=1)
+        self.assertEqual(str(book), book.title)
+
     def test_title_content(self):
         book = Book.objects.get(id=1)
         expected_object_name = f"{book.title}"
