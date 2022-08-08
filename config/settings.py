@@ -42,8 +42,9 @@ INSTALLED_APPS = [
     "dj_rest_auth.registration",
     "drf_spectacular",
     # Local
-    "api",
-    "books",
+    "accounts.apps.AccountsConfig",
+    "api.apps.ApiConfig",
+    "books.apps.BooksConfig",
 ]
 
 MIDDLEWARE = [
