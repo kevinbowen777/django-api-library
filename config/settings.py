@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     "dj_rest_auth",
     "dj_rest_auth.registration",
     "drf_spectacular",
+    "bootstrap4",
+    "crispy_forms",
     # Local
     "accounts.apps.AccountsConfig",
     "api.apps.ApiConfig",
