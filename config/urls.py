@@ -1,3 +1,4 @@
+"""URLs for the django-api-library project."""
 from django.conf import settings  # noqa:F401
 from django.contrib import admin
 from django.urls import include, path
@@ -9,7 +10,10 @@ from drf_spectacular.views import (
 
 
 urlpatterns = [
+    # Django admin
     path("admin/", admin.site.urls),
+    # User management
+    path("accounts/", include("allauth.urls")),
     path("api/v1/", include("api.urls")),
     path("", include("books.urls")),
     path("api-auth/", include("rest_framework.urls")),
