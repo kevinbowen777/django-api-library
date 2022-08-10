@@ -21,3 +21,9 @@ h2 a:hover {
   height: 300px;
   width: auto;
 }
+
+ul.no-bullets {
+  list-style-type: circle; /* Remove bullets */
+  /* padding: 0;  Remove padding */
+  margin: 0; /* Remove margins */
+}
