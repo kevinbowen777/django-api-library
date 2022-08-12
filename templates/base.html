@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1,
       shrink-to-fit=no">
-    <title>{% block title %}Django Blog API{% endblock title %}</title>
+    <title>{% block title %}Django Library API{% endblock title %}</title>
     <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon.ico' %}"/>
     <!-- CSS -->
     {% bootstrap_css %}
@@ -52,6 +52,8 @@
             aria-labelledby="navbarDropdown">
               <a class="dropdown-item"
               href="{% url 'home' %}">Home</a>
+              <a class="dropdown-item"
+              href="{% url 'user_detail' user.username %}">My Profile</a>
               <a class="dropdown-item"
               href="{% url 'account_set_password' %}">Change password</a>
               <a class="dropdown-item"
