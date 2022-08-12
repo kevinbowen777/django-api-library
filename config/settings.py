@@ -31,9 +31,12 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     # 3rd party
     # "debug_toolbar",
+    "bootstrap4",
+    "corsheaders",
+    "crispy_forms",
+    "django_countries",
     "django_extensions",
     "rest_framework",
-    "corsheaders",
     "rest_framework.authtoken",
     "allauth",
     "allauth.account",
@@ -42,8 +45,6 @@ INSTALLED_APPS = [
     "dj_rest_auth",
     "dj_rest_auth.registration",
     "drf_spectacular",
-    "bootstrap4",
-    "crispy_forms",
     # Local
     "accounts.apps.AccountsConfig",
     "api.apps.ApiConfig",
@@ -133,6 +134,9 @@ STATICFILE_FINDERS = [
     "django.contrib.staticfiles.finders.FileSystemFinder",
     "django.contrib.staticfiles.finders.AppDirectorFinder",
 ]
+
+MEDIA_URL = "/media/"
+MEDIA_ROOT = str(BASE_DIR.joinpath("media"))
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
