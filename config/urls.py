@@ -1,5 +1,6 @@
 """URLs for the django-api-library project."""
-from django.conf import settings  # noqa:F401
+from django.conf import settings
+from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import include, path
 from drf_spectacular.views import (
@@ -15,6 +16,7 @@ urlpatterns = [
     # User management
     path("accounts/", include("allauth.urls")),
     # Local apps
+    path("accounts/", include("accounts.urls")),
     path("api/v1/", include("api.urls")),
     path("", include("pages.urls")),
     path("", include("books.urls")),
@@ -39,7 +41,7 @@ urlpatterns = [
         SpectacularSwaggerView.as_view(url_name="schema"),
         name="swagger-ui",
     ),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 """
 if settings.DEBUG:
