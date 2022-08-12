@@ -19,6 +19,7 @@ class CustomUserAdmin(UserAdmin):
     fieldsets = UserAdmin.fieldsets
     fieldsets[1][1]["fields"] = fieldsets[1][1]["fields"] + (
         "age",
+        "country",
         "bio",
     )
 
