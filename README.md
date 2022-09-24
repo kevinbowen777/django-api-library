@@ -1,9 +1,9 @@
-### django_api-library 
+### django-api-library 
 
 <div align="center">
 
   [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
-  [![GitHub Issues](https://img.shields.io/github/issues/kevinbowen777/django_api-library.svg)](https://github.com/kevinbowen777/django_api-library/issues)
+  [![GitHub Issues](https://img.shields.io/github/issues/kevinbowen777/django-api-library.svg)](https://github.com/kevinbowen777/django-api-library/issues)
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
@@ -46,8 +46,8 @@
          - pytest sessions with coverage
 
 ### Installation
- - `git clone https://github.com/kevinbowen777/django_api-library.git`
- - `cd django_api-library`
+ - `git clone https://github.com/kevinbowen777/django-api-library.git`
+ - `cd django-api-library`
  - Local installation
      - `poetry install`
      - `python manage.py migrate`
@@ -106,5 +106,5 @@ A live application demonstration hosted at Heroku
 
 ### Reporting Bugs
 
-   Visit the [Issues page](https://github.com/kevinbowen777/django_api-library/issues)
+   Visit the [Issues page](https://github.com/kevinbowen777/django-api-library/issues)
       to view currently open bug reports or open a new issue.
