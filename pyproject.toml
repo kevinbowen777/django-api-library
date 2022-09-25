@@ -52,7 +52,7 @@ extend_skip = ["*.md", "*.json"]
 line_length = 79
 
 [tool.poetry]
-name = "django_api-library"
+name = "django-api-library"
 version = "0.1.0"
 description = "A basic demo of Django API functionality using DRF"
 authors = ["Kevin Bowen <kevin.bowen@gmail.com>"]
