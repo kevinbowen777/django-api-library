@@ -132,4 +132,4 @@ Live demonstration of application running on Heroku:
 Reporting Bugs
 --------------
 
-Visit the django_api-library `Issues page <https://github.com/kevinbowen777/django_api-library/issues>`_ on GitHub.
+Visit the django_api-library `Issues page <https://github.com/kevinbowen777/django-api-library/issues>`_ on GitHub.
