@@ -1,3 +1,6 @@
+"""
+Note: These tests were used prior to implementing BookFactory
+
 from django.test import TestCase
 
 from .models import Book
@@ -38,3 +41,4 @@ class BookModelTest(TestCase):
         book = Book.objects.get(id=1)
         expected_object_name = f"{book.isbn}"
         self.assertEqual(expected_object_name, "1093633948")
+"""
