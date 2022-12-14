@@ -118,31 +118,31 @@ TBD
 ### Screenshots
 
 ### Home
-![Home](https://github.com/kevinbowen777/django-api-library/blob/master/images/django-api-library_home.png)
+![Home](images/django-api-library_home.png)
 
 ### Index
-![Message Index](https://github.com/kevinbowen777/django-api-library/blob/master/images/django-api-library_index.png)
+![Message Index](images/django-api-library_index.png)
 
 ### Profile Page
-![Profile Page](https://github.com/kevinbowen777/django-api-library/blob/master/images/django-api-library_profile-page.png)
+![Profile Page](images/django-api-library_profile-page.png)
 
 ### Login Page
-![Login Page](https://github.com/kevinbowen777/django-api-library/blob/master/images/django-api-library_sign-in.png)
+![Login Page](images/django-api-library_sign-in.png)
 
 ### Book List View
-![Book List View](https://github.com/kevinbowen777/django-api-library/blob/master/images/django-api-library_book-list-view.png)
+![Book List View](images/django-api-library_book-list-view.png)
 
 ### Swagger-UI
-![Swagger-UI](https://github.com/kevinbowen777/django-api-library/blob/master/images/django-api-library_swagger-ui.png)
+![Swagger-UI](images/django-api-library_swagger-ui.png)
 
 ### Redoc API page
-![Redoc API page](https://github.com/kevinbowen777/django-api-library/blob/master/images/django-api-library_redoc-tree.png)
+![Redoc API page](images/django-api-library_redoc-tree.png)
 
 ### Menu Bar
-![Menu Bar](https://github.com/kevinbowen777/django-api-library/blob/master/images/django-api-library_menu-bar.png)
+![Menu Bar](images/django-api-library_menu-bar.png)
 
 ### Email Address management
-![Email Address management](https://github.com/kevinbowen777/django-api-library/blob/master/images/django-api-library_email-addresses.png)
+![Email Address management](images/django-api-library_email-addresses.png)
 
 ---
 
