@@ -66,6 +66,9 @@
        - `docker run -it django-start-web bash`
          (CLI access to container)
  - Browse to http://127.0.0.1:8000 or http://127.0.0.1:8000/resources/
+ - Pre-commit:
+     - To add the hook, run the following command in the poetry shell:
+         - `pre-commit install`
 
 ---
 
