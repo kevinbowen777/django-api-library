@@ -7,6 +7,8 @@ django-api-library
 
    license
    package_index
+   create_new_users
+   add_book_list
 
 .. contents:: Table of Contents
    :local:

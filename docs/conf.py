@@ -1,4 +1,4 @@
 """Sphinx configuration."""
 project = "django-api-library"
 author = "Kevin Bowen"
-copyright = f"2022, {author}"
+copyright = f"2023, {author}"
