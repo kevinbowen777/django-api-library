@@ -32,7 +32,6 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     # 3rd party
     # "debug_toolbar",
-    "bootstrap4",
     "corsheaders",
     "crispy_forms",
     "crispy_bootstrap4",
