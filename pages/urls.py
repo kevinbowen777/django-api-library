@@ -7,7 +7,6 @@ from .views import (
     SuccessView,
 )
 
-
 urlpatterns = [
     path("about/", AboutPageView.as_view(), name="about"),
     path("contact/", ContactView, name="contact"),

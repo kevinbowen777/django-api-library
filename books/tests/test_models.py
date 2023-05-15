@@ -1,8 +1,8 @@
-from accounts.tests.factories import UserFactory
 from django.test import TestCase
 
-from .factories import BookFactory
+from accounts.tests.factories import UserFactory
 
+from .factories import BookFactory
 
 # from ..models import Book
 
