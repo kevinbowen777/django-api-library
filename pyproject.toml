@@ -13,7 +13,7 @@ exclude = '''
 )/
 '''
 [tool.coverage.paths]
-source = ["api", "books", "config", "pages"]
+source = ["accounts", "api", "books", "config", "pages"]
 
 [tool.coverage.run]
 branch = true
@@ -42,9 +42,39 @@ show_missing = true
 [tool.poetry]
 name = "django-api-library"
 version = "0.1.0"
-description = "A basic demo of Django API functionality using DRF"
-authors = ["Kevin Bowen <kevin.bowen@gmail.com>"]
+description = "A basic demo of Django API functionality using DRF with a library"
+authors = [
+    "Kevin Bowen <kevin.bowen@gmail.com>",
+]
+maintainers = [
+]
 license = "MIT"
+
+readme = "README.md"
+
+homepage = ""
+repository = "https://github.com/kevinbowen777/django-api-library.git"
+documentation = "file: README.rst"
+
+keywords = ["api", "django", "djangorestframework", "library", "web-application"]
+
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Framework :: Django :: 4.2",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP",
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
