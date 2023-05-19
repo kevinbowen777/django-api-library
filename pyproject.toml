@@ -1,5 +1,5 @@
 [tool.black]
-line-length = 79
+line-length = 88
 # include =
 exclude = '''
 /(
@@ -7,11 +7,13 @@ exclude = '''
   | __pycache__
   | .pytest_cache
   | .venv
+  | staticfiles
   | build
   | dist
-  | migrations
+  | ^.*\b(migrations)\b.*$
 )/
 '''
+
 [tool.coverage.paths]
 source = ["accounts", "api", "books", "config", "pages"]
 
@@ -79,12 +81,13 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.10"
 Django = "4.2.1"
-environs = {extras = ["django"], version = "^9.5.0"}
+
 djangorestframework = "^3.13.1"
-psycopg2-binary = "^2.9.5"
 dj-rest-auth = "^3.0.0"
 django-allauth = "^0.54.0"
+environs = { version = "^9.5.0", extras = ["django"] }
 django-extensions = "^3.2"
+psycopg2-binary = "^2.9.5"
 whitenoise = "^6.0.0"
 gunicorn = "~=20.1.0"
 django-cors-headers = "^3.10.0"
@@ -95,27 +98,28 @@ django-countries = "^7.3.2"
 crispy-bootstrap4 = "^2022.1"
 
 [tool.poetry.group.dev.dependencies]
+django-debug-toolbar = "^4.0.0"
 pre-commit = "^3.0.0"
 black = "^23.0.0"
-django-debug-toolbar = "^4.0.0"
 django-test-plus = "^2.2.0"
+pytest = "^7.1.2"
 pytest-sugar = "^0.9.4"
-coverage = {extras = ["toml"], version = "^7.0.0"}
+coverage = { version = "^7.0.0", extras = ["toml"] }
 pytest-cov = "^4.0.0"
 pytest-django = "^4.5.2"
 ipython = "^8.4.0"
 friendly = "^0.7.0"
 colorama = "^0.4.4"
-pytest = "^7.1.2"
 django-pytest = "^0.2.0"
 django-coverage-plugin = "^3.0.0"
-nox = "^2023.4.22"
+nox = "2023.4.22"
 flake8-docstrings = "^1.6.0"
 safety = "2.4.0b1"
 factory-boy = "3.0.1"
 pip-check = "^2.7"
 pip-audit = "^2.5"
-Sphinx = "^7.0.0"
+Sphinx = "6.2.1"
+sphinx-rtd-theme = "^1.2.0"
 ruff = "^0.0.267"
 
 [tool.pytest.ini_options]
