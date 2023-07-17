@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 
-{% block title %}Welcome{% endblock title %}
+{% block title %}
+  Welcome
+{% endblock title %}
 
 {% block content %}
   <div class="jumbotron">
@@ -11,11 +13,14 @@
       <a class="btn btn-lg btn-primary" href="api/v1/" role="button">Browse the API »</a>
     {% else %}
 
-    <p class="lead">Make your own Library, and keep a list of the
-        books you have read or are in your collection.</p>
+      <p class="lead">
+        Make your own Library, and keep a list of the
+        books you have read or are in your collection.
+      </p>
 
-      <a class="btn btn-lg btn-primary" href="{% url 'account_signup' %}"
-        role="button">Register »</a>
+      <a class="btn btn-lg btn-primary"
+         href="{% url 'account_signup' %}"
+         role="button">Register »</a>
     {% endif %}
   </div>
 {% endblock content %}
