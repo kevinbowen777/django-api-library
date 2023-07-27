@@ -46,7 +46,7 @@ environs = { version = "^9.5.0", extras = ["django"] }
 django-extensions = "^3.2"
 psycopg2-binary = "^2.9.5"
 whitenoise = "^6.0.0"
-gunicorn = "~=20.1.0"
+gunicorn = "^21.0"
 django-cors-headers = "^4.0"
 drf-spectacular = "^0.26.0"
 django-crispy-forms = "^2.0"
@@ -72,12 +72,11 @@ django-coverage-plugin = "^3.0.0"
 nox = "2023.4.22"
 safety = "2.4.0b1"
 factory-boy = "3.0.1"
-Sphinx = "6.2.1"
-sphinx-rtd-theme = "^1.2.0"
 ruff = ">= 0.0.275, < 0.0.300"
 werkzeug = "^2.3.6"
 pyopenssl = "^23.2.0"
 djlint = "^1.31.1"
+furo = "^2023.7.26"
 
 [tool.black]
 line-length = 88
