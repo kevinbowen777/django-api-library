@@ -1,4 +1,5 @@
 """Settings for the django_api-libraries project."""
+
 from pathlib import Path
 
 # import socket  # Comment out if not using debug_toolbar

@@ -1,4 +1,5 @@
 """Nox sessions - django-api-library."""
+
 import tempfile
 
 import nox
