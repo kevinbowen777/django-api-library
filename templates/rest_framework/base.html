@@ -32,7 +32,7 @@
         {% block bootstrap_theme %}
           <link rel="stylesheet" type="text/css" href="{% static "rest_framework/css/bootstrap.min.css" %}" />
           <link rel="stylesheet" type="text/css" href="{% static "rest_framework/css/bootstrap-tweaks.css" %}" />
-        {% endblock bookstrap_theme %}
+        {% endblock bootstrap_theme %}
 
         <link rel="stylesheet" type="text/css" href="{% static "rest_framework/css/prettify.css" %}" />
         <link rel="stylesheet" type="text/css" href="{% static "rest_framework/css/default.css" %}" />
@@ -45,7 +45,7 @@
   </head>
 
   {% block body %}
-    <body class="{% block bodyclass %}{% endblock class %}">
+    <body class="{% block bodyclass %}{% endblock bodyclass %}">
 
       <div class="wrapper">
         {% block navbar %}
