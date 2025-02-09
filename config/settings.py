@@ -17,9 +17,7 @@ DEBUG = env.bool("DJANGO_DEBUG", default=False)
 
 ALLOWED_HOSTS = ["django-api-library.cool", "localhost", "127.0.0.1"]
 
-
 # Application definition
-
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.admindocs",
@@ -30,7 +28,7 @@ INSTALLED_APPS = [
     "whitenoise.runserver_nostatic",
     "django.contrib.staticfiles",
     "django.contrib.sites",
-    # 3rd party
+    # Third-party Applications
     # "debug_toolbar",
     "corsheaders",
     "crispy_forms",
@@ -46,7 +44,7 @@ INSTALLED_APPS = [
     "dj_rest_auth",
     "dj_rest_auth.registration",
     "drf_spectacular",
-    # Local
+    # Local Applications
     "accounts.apps.AccountsConfig",
     "api.apps.ApiConfig",
     "books.apps.BooksConfig",
@@ -91,7 +89,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "config.wsgi.application"
 
-
 # Database
 # Note: Set sqlite/dev URI in .env file
 DATABASES = {
@@ -101,7 +98,7 @@ DATABASES = {
             "DATABASE_URL", default="postgres://postgres@db/postgres"
         ),
         "NAME": env.str("POSTGRES_DB", "postgres"),
-        "USER": env.str("POSTGRES_USER", "fakeuser"),
+        "USER": env.str("POSTGRES_USER", default="fakeuser"),
         "PASSWORD": env.str("POSTGRES_PASSWORD", "password"),
         "HOST": env.str("POSTGRES_HOST", "db"),
         "PORT": env.int("POSTGRES_PORT", "5432"),
@@ -123,7 +120,6 @@ AUTH_PASSWORD_VALIDATORS = [
         "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",
     },
 ]
-
 
 # Internationalization
 LANGUAGE_CODE = "en-us"
@@ -175,15 +171,15 @@ SPECTACULAR_SETTINGS = {
 }
 
 # django-allauth config
-SITE_ID = 1
 LOGIN_REDIRECT_URL = "home"
 ACCOUNT_LOGOUT_REDIRECT_URL = "home"
+SITE_ID = 1
 AUTHENTICATION_BACKENDS = (
     "django.contrib.auth.backends.ModelBackend",
     "allauth.account.auth_backends.AuthenticationBackend",
 )
 ACCOUNT_USERNAME_REQUIRED = True
-ACCOUNT_AUTHENTICATION_METHOD = "username_email"
+ACCOUNT_LOGIN_METHODS = {"username", "email"}
 ACCOUNT_EMAIL_CONFIRMATION_EXPIRE_DAYS = 3
 ACCOUNT_EMAIL_REQUIRED = False
 ACCOUNT_EMAIL_VERIFICATION = "optional"
