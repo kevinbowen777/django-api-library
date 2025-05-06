@@ -1,6 +1,6 @@
 [project]
 name = "django-api-library"
-version = "0.3.2"
+version = "0.3.3"
 description = "A basic demo of Django API functionality using DRF with a library"
 requires-python = ">=3.11.0, <3.14.0"
 dependencies = [
