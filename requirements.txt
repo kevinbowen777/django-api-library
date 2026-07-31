@@ -1,6 +1,6 @@
-asgiref==3.11.1 ; python_version >= "3.12" and python_full_version < "3.15.0" \
-    --hash=sha256:5f184dc43b7e763efe848065441eac62229c9f7b0475f41f80e207a114eda4ce \
-    --hash=sha256:e8667a091e69529631969fd45dc268fa79b99c92c5fcdda727757e52146ec133
+asgiref==3.12.1 ; python_version >= "3.12" and python_full_version < "3.15.0" \
+    --hash=sha256:59dcb51c272ad209d59bed5708a64a333083e86017d7fcdd67498eeab7784340 \
+    --hash=sha256:fe386d1c2bff7259ea95929266d12a8cf9a8b5a1c2598402967d8792e7a7c094
 attrs==26.1.0 ; python_version >= "3.12" and python_full_version < "3.15.0" \
     --hash=sha256:c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309 \
     --hash=sha256:d03ceb89cb322a8fd706d4fb91940737b6642aa36998fe130a9bc96c985eff32
@@ -15,9 +15,9 @@ dj-email-url==1.0.6 ; python_full_version >= "3.12.0" and python_full_version < 
     --hash=sha256:cbd08327fbb08b104eac160fb4703f375532e4c0243eb230f5b960daee7a96db
 dj-rest-auth==7.2.0 ; python_version >= "3.12" and python_full_version < "3.15.0" \
     --hash=sha256:f77af37da5cf6ee28f03f283a378a2f5761860e72d1d6f2fa3d50e6286000482
-django==5.2.16 ; python_version >= "3.12" and python_full_version < "3.15.0" \
-    --hash=sha256:04f354bf9d807a86ad1a8392fe3808d362358a8eafc322848e0e43e59b24371d \
-    --hash=sha256:59ea02020c3136fce14bef0bbece21a10a4febef5eed1c51c22ae468efa22200
+django==6.0.7 ; python_version >= "3.12" and python_full_version < "3.15.0" \
+    --hash=sha256:2998503fc083124fb58037084bfa00de323c7c743f05f1b4284e77bff0ab8890 \
+    --hash=sha256:a037427c2288443a8c02a1b02295a31c239663aa682bc50b1976afb7cf6a769e
 django-allauth==65.18.0 ; python_version >= "3.12" and python_full_version < "3.15.0" \
     --hash=sha256:afb82e2c545b9a5539370ad120468faaed84715e095a7b6e76972dacdc6376fe \
     --hash=sha256:e508640c83b94eaf1a9b4e9ac5332dc310dcdc83fca40d58a3f670e15bad1e84
@@ -30,9 +30,9 @@ django-cors-headers==4.9.0 ; python_version >= "3.12" and python_full_version < 
 django-countries==9.0.0 ; python_version >= "3.12" and python_full_version < "3.15.0" \
     --hash=sha256:21fce461733c856355c487d1f24b71338599482505004a0c2e521fd574a59fb1 \
     --hash=sha256:a993416af08a8a4e6e866d56b71c7ce92351c81a2543da213cd7899917567a42
-django-crispy-forms==2.6 ; python_version >= "3.12" and python_full_version < "3.15.0" \
-    --hash=sha256:4921a1087c6cd4f9fa3c139654c1de1c1c385f8bd6729aaee530bc0121ab4b93 \
-    --hash=sha256:8ee0ae28b6b0ac41ff48a65944480c049fe8d1b0047086874fd7efabf4ec1374
+django-crispy-forms==2.7 ; python_version >= "3.12" and python_full_version < "3.15.0" \
+    --hash=sha256:42a7ecb05ac3fd050d006dfe7aeceb7f318c30e5b5124ff619e2be252f36f096 \
+    --hash=sha256:4c59bed60417375cba26cebb2c67ab350b655934670270b1c89dbcd7e60f1b4c
 django-extensions==4.1 ; python_version >= "3.12" and python_full_version < "3.15.0" \
     --hash=sha256:0699a7af28f2523bf8db309a80278519362cd4b6e1fd0a8cd4bf063e1e023336 \
     --hash=sha256:7b70a4d28e9b840f44694e3f7feb54f55d495f8b3fa6c5c0e5e12bcb2aa3cdeb
