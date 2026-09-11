@@ -27,6 +27,48 @@ with advance notice in the **Deprecations** section of releases.
 
 .. towncrier release notes start
 
+django-api-library 0.3.6 (2026-09-11)
+=====================================
+
+Contributor-facing changes
+--------------------------
+
+-  (`#622 <https://github.com/kevinbowen777/django-api-library/issues/622>`_): Initial zizmor remediation. Pin GitHub actions to hashes.
+
+-  (`#625 <https://github.com/kevinbowen777/django-api-library/issues/625>`_): Update testing to Python 3.14.7, 3.13.15, and 3.12.14
+
+-  (`#625 <https://github.com/kevinbowen777/django-api-library/issues/625>`_): Update nox to 2026.8.17
+
+-  (`#625 <https://github.com/kevinbowen777/django-api-library/issues/625>`_): Update django-debug-toolbar to 7.1.1
+
+-  (`#625 <https://github.com/kevinbowen777/django-api-library/issues/625>`_): Update gunicorn to 26.1.0
+
+-  (`#630 <https://github.com/kevinbowen777/django-api-library/issues/630>`_): Update django-allauth to 65.19.2
+
+-  (`#630 <https://github.com/kevinbowen777/django-api-library/issues/630>`_): Upgrade gunicorn to 26.2.0
+
+-  (`#630 <https://github.com/kevinbowen777/django-api-library/issues/630>`_): Upgrade environs to 15.2.0
+
+-  (`#630 <https://github.com/kevinbowen777/django-api-library/issues/630>`_): Update django-debug-toolbar to 8.0.0
+
+-  (`#630 <https://github.com/kevinbowen777/django-api-library/issues/630>`_): Update towncrier to 26.9.0
+
+-  (`#630 <https://github.com/kevinbowen777/django-api-library/issues/630>`_): Update djlint to 1.46.1
+
+-  (`#630 <https://github.com/kevinbowen777/django-api-library/issues/630>`_): Update psycopg to 3.3.5
+
+-  (`#631 <https://github.com/kevinbowen777/django-api-library/issues/631>`_): Replace master with main in static gh action
+
+-  (`#632 <https://github.com/kevinbowen777/django-api-library/issues/632>`_): Upgrade GitHub actions to latest versions
+
+
+New features
+------------
+
+-  (`#630 <https://github.com/kevinbowen777/django-api-library/issues/630>`_): Upgrade djangorestframework to 3.18.1
+
+-  (`#630 <https://github.com/kevinbowen777/django-api-library/issues/630>`_): Upgrade Django to 6.1.1
+
 django-api-library 0.3.5 (2026-08-21)
 =====================================
 
