@@ -27,7 +27,6 @@ class BookTests(TestCase):
         )
 
     def test___str__(self):
-        assert self.book.__str__() == self.book.title
         assert str(self.book) == self.book.title
 
     def test_book_content(self):
