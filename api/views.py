@@ -1,3 +1,5 @@
+from typing import ClassVar
+
 from django.contrib.auth import get_user_model
 from rest_framework import viewsets
 from rest_framework.permissions import IsAdminUser
@@ -13,6 +15,6 @@ class BookViewSet(viewsets.ModelViewSet):
 
 
 class UserViewSet(viewsets.ModelViewSet):
-    permission_class = [IsAdminUser]
+    permission_class: ClassVar[list[type[IsAdminUser]]] = [IsAdminUser]
     queryset = get_user_model().objects.all()
     serializer_class = UserSerializer

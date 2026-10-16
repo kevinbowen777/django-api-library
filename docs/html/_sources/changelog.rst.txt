@@ -27,6 +27,28 @@ with advance notice in the **Deprecations** section of releases.
 
 .. towncrier release notes start
 
+django-api-library 0.3.8 (2026-10-16)
+=====================================
+
+Security updated
+----------------
+
+-  (`#638 <https://github.com/kevinbowen777/django-api-library/issues/638>`_): Update djangorestframework
+
+-  (`#638 <https://github.com/kevinbowen777/django-api-library/issues/638>`_): Update django-allauth to 65.20.0
+
+-  (`#639 <https://github.com/kevinbowen777/django-api-library/issues/639>`_): Update Django to 6.1.2
+
+
+Contributor-facing changes
+--------------------------
+
+- : Update ruff rules & fix reported errors
+
+-  (`#638 <https://github.com/kevinbowen777/django-api-library/issues/638>`_): Update djlint to 1.46.4
+
+-  (`#638 <https://github.com/kevinbowen777/django-api-library/issues/638>`_): Update testing for Python 3.14.8, 3.13.16, 3.12.15
+
 django-api-library 0.3.7 (2026-10-02)
 =====================================
 

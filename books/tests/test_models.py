@@ -13,5 +13,4 @@ class BookTests(TestCase):
         self.book = BookFactory()
 
     def test__str__(self):
-        assert self.book.__str__() == self.book.title
         assert str(self.book) == self.book.title
