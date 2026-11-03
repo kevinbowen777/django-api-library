@@ -27,6 +27,42 @@ with advance notice in the **Deprecations** section of releases.
 
 .. towncrier release notes start
 
+django-api-library 0.3.9 (2026-11-03)
+=====================================
+
+Security updated
+----------------
+
+-  (`#641 <https://github.com/kevinbowen777/django-api-library/issues/641>`_): Update certifi to 2026.10.23
+
+-  (`#641 <https://github.com/kevinbowen777/django-api-library/issues/641>`_): Update pillow to 13.0.0
+
+-  (`#641 <https://github.com/kevinbowen777/django-api-library/issues/641>`_): Update pip to 26.2.2
+
+-  (`#641 <https://github.com/kevinbowen777/django-api-library/issues/641>`_): Update django-allauth to 65.21.1
+
+-  (`#641 <https://github.com/kevinbowen777/django-api-library/issues/641>`_): Update .python-version with 3.14.10, 3.13.18, 3.12.16
+
+-  (`#642 <https://github.com/kevinbowen777/django-api-library/issues/642>`_): Update Django to 6.1.3
+
+-  (`#642 <https://github.com/kevinbowen777/django-api-library/issues/642>`_): Update psycopg to 3.3.7
+
+
+Improved documentation
+----------------------
+
+-  (`#641 <https://github.com/kevinbowen777/django-api-library/issues/641>`_): Remove legacy license classifier
+
+
+Contributor-facing changes
+--------------------------
+
+-  (`#641 <https://github.com/kevinbowen777/django-api-library/issues/641>`_): Update djlint to 1.49.2
+
+-  (`#641 <https://github.com/kevinbowen777/django-api-library/issues/641>`_): Update ruff rules & fix reported errors
+
+-  (`#641 <https://github.com/kevinbowen777/django-api-library/issues/641>`_): Update nox to 2026.10.20
+
 django-api-library 0.3.8 (2026-10-16)
 =====================================
 
